@@ -1,6 +1,6 @@
 <?php
 
-require_once 'config/db.php'; // Подключаем БД
+require_once '../config/db.php'; // Подключаем БД
 
 // Получаем все записи из таблицы parking_car
 $sql = "SELECT * FROM parking_car";
