@@ -21,19 +21,20 @@ $result = $conn->query($sql);
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Список автомобилей на стоянке</h1>
-    <table>
-        <tr>
-            <th>ID</th>
-            <th>Модель</th>
-            <th>Владелец</th>
-            <th>Дата въезда</th>
-            <th>Дата выезда</th>
-            <th>Цена</th>
-            <th>Скидка (%)</th>
-            <th>Задолженность</th>
-            <th>Действия</th>
-        </tr>
-    </table>
+<h1>Список автомобилей на стоянке</h1>
+<a href="add.php">Добавить автомобиль</a>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Модель</th>
+        <th>Владелец</th>
+        <th>Дата въезда</th>
+        <th>Дата выезда</th>
+        <th>Цена</th>
+        <th>Скидка (%)</th>
+        <th>Задолженность</th>
+        <th>Действия</th>
+    </tr>
+</table>
 </body>
 </html>
